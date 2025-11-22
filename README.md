@@ -7,9 +7,10 @@ A powerful, in-memory, and robust conversion tool built for Telegram, designed t
 
   - Word ➡️ PDF: Convert Word documents (.docx) into universally viewable PDFs.
 
-  - age ➡️ PDF: Transform image files (JPG, PNG, etc.) into a single PDF document.
+  - Image ➡️ PDF: Transform image files (JPG, PNG, etc.) into a single PDF document.
 
-  -    n-Memory Processing: Utilizes io.BytesIO and secure temporary files (tempfile) for all conversions, ensuring data privacy and no disk clutter.
+  - In-Memory Processing: Utilizes io.BytesIO and secure temporary files (tempfile) for all conversions, ensuring data privacy and no disk clutter.
+
 🛠️ Technology Stack
 
   - Language: Python 3.11+
@@ -19,6 +20,7 @@ A powerful, in-memory, and robust conversion tool built for Telegram, designed t
   - PDF Conversion: pdf2docx
 
   - Image Conversion: Pillow (PIL)
+
 ⚙️ Setup and Installation
     Prerequisites
 
@@ -41,6 +43,10 @@ source venv/bin/activate
 
 # 3. Install Python requirements
 pip install -r requirements.txt
+# 3. Run
+python main.py
+# or
+python3 main.py
   ```
 🖥️ Usage
 
